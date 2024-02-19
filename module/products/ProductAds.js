@@ -3,14 +3,14 @@ import React from "react";
 
 const ProductAds = ({ image, content }) => {
   return (
-    <div className="relative overflow-hidden rounded-sm shadow-sm">
-      <div className="h-fit">
+    <div className="relative flex-1 overflow-hidden rounded-sm shadow-sm">
+      <div className="h-full">
         <Image
           src={image}
           alt="product"
           width={600}
           height={600}
-          className="object-cover object-bottom w-full brightness-75"
+          className="object-cover object-bottom w-full h-full brightness-75"
         />
       </div>
       <div className="absolute inset-0 flex-center">

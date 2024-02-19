@@ -6,22 +6,23 @@ const About = () => {
     <>
       <div className="relative w-full min-h-screen">
         <Image
-          src={"/image/banners/banner-5.jpg"}
-          alt="de-blanc"
+          src={"/image/banners/banner-5.jpeg"}
+          alt="gkuls"
           fill
           className="object-cover object-left-top w-full h-full -z-10 brightness-[0.85]"
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">de-blanc</h3>
+            <h3 className="text-white uppercase text-heading">gkuls</h3>
             <p className="leading-6 text-center text-white">
-              Strategic Insights, Creative Solutions, Marketing Excellence.
+              Our company was found by a group of experient and professional who are always keep going to find the
+              better solution to your problems.
             </p>
           </div>
         </div>
       </div>
       <div className="container max-w-[630px] flex-center flex-col gap-8 text-center">
-        <h3 className="text-5xl uppercase text-heading">More than 9 years of establishment</h3>
+        <h3 className="text-5xl uppercase text-heading">MORE THAN 7 YEARS OF ESTABLISHMENT</h3>
         <div>
           <svg height="100" viewBox="0 0 8 100" width="8" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -33,52 +34,35 @@ const About = () => {
           </svg>
         </div>
         <p>
-          Welcome to DE-BLANC, where passion meets creativity, crafting an impressive journey in the world of marketing.
-          With a decade of experience, we are not just a company; we are a story of perseverance, dedication, and
-          constant innovation.
+          GKULS was established in 2017. After 7 years of operation, our company now has more than 120 experienced
+          employees in the field of online marketing and advertising.
         </p>
         <p>
-          <b>The Creative Journey</b>: Our journey began with a dream to build groundbreaking strategies, delivering
-          true value to our clients. From the very first steps, we shaped ourselves with an unwavering commitment to
-          continuous improvement and the creation of effective strategies.
-        </p>
-        <p>
-          <b>Expert Team</b>: We take pride in our team of talented and passionate experts, from strategic planners to
-          creative content creators. With diversity and in-depth knowledge, we continuously train and develop ourselves
-          to meet the ever-evolving challenges of the market.
-        </p>
-        <p>
-          <b>We Bridge Connections</b>: We not only create strategies but also act as a bridge connecting brands and
-          customers. With a focus on a profound understanding of the target audience, we ensure that every strategy
-          communicates authentically and effectively.
-        </p>
-        <p>
-          <b>Achievements and Commitments</b>: With over a decade in the industry, we have achieved significant
-          milestones, from building brands to enhancing market visibility. Committed to continuous innovation, we are
-          always ready to accompany you on your journey to success.
-        </p>
-        <p>
-          <b>Promising Future</b>: With eyes set on the future, we are confident that the upcoming years will continue
-          to be marked by new strides, innovative strategies, and new success stories. Join DE-BLANC, where innovation
-          and success become a reality.
+          We have approached and cooperated with more than 17,000 individual and business customers in Asia, and some
+          countries in Europe.
         </p>
       </div>
       <div className="relative w-full min-h-screen">
         <div className="absolute inset-0">
           <Image
             src={"/image/banners/banner-6.jpg"}
-            alt="de-blanc"
+            alt="gkuls"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.85]"
           />
         </div>
         <div className={`absolute inset-0 flex justify-center items-center`}>
           <div className="w-full sm:w-[700px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-center text-white uppercase text-heading">Why Should You Choose Us?</h3>
+            <h3 className="text-center text-white uppercase text-heading">WHY SHOULD YOU CHOOSE US?</h3>
             <p className="leading-6 text-center text-white">
-              - Innovative Strategies <br />
-              - Dedicated Team <br />
-              - Proven Track Record <br />- Client-Centric Approach
+              - Proven Experts: Rely on our experienced team with a successful track record in diverse industries.
+              <br />
+              - Innovative Solutions: Stay ahead with cutting-edge strategies for a standout brand.
+              <br />
+              - Client-Focused: Experience personalized attention and flexible strategies.
+              <br />
+              - Measurable Results: Achieve tangible success with our data-driven approach.
+              <br />
             </p>
           </div>
         </div>

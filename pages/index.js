@@ -5,37 +5,34 @@ import classnames from "classnames";
 
 const users = [
   {
-    name: "Khalid Abdullah",
-    comment:
-      "Effective and flexible. This marketing company is always adaptable to market innovations, maintaining high performance with advertising strategies.",
+    name: "Jordan Pheld",
+    comment: "Good product, and the service cannot complain any point",
     image: "/image/users/user-1.jpg",
     rating: 5,
   },
   {
-    name: "Jinni Hwang",
-    comment:
-      "I run a small company without a strong in-house marketing team, but thanks to this company, all our projects have been successful. Their expertise and dedication have played a crucial role in our achievements.",
+    name: "Taylor Smith",
+    comment: "I'm impressed with the product and the way it develop and contribute on website.",
     image: "/image/users/user-2.jpg",
     rating: 5,
   },
   {
-    name: "Antonio Dela Cruz",
-    comment:
-      "All the projects I have worked with them have been extremely effective. They are experienced and very knowledgeable about the tiktok market.",
+    name: "Michelle Han",
+    comment: "The products are so professional prepare and pack, which make me satisfied a lot.",
     image: "/image/users/user-3.jpg",
     rating: 5,
   },
   {
-    name: "Sophia Martinez",
+    name: "Somalia Nan",
     comment:
-      "Good measurement and reporting capabilities. They not only implement strategies but also provide detailed reporting and clear performance evaluations.",
+      "Cannot looking forward for any better products and service as this. The help me find out the things i need for my skin.",
     image: "/image/users/user-4.jpg",
     rating: 5,
   },
   {
-    name: "Amber Liu",
+    name: "Jackie Matha",
     comment:
-      "Profound strategic thinking. This company has the ability to assess the market and a clear understanding of competitors, helping us seize opportunities in a timely manner.",
+      "The transparency and clarity in their measurement and reporting are commendable. Their marketing services not only look good on paper but also contribute tangible value to our business growth.",
     image: "/image/users/user-5.jpg",
     rating: 4,
   },
@@ -45,12 +42,13 @@ export default function Home() {
   return (
     <div>
       <div className="relative w-full h-screen">
-        <img src="/image/banners/banner-1.jpg" alt="de-blanc" className="w-full h-full brightness-[0.9]" />
+        <img src="/image/banners/banner-1.webp" alt="gkuls" className="w-full h-full brightness-[0.95]" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">de-blanc</h3>
+            <h3 className="text-white uppercase text-heading">gkuls</h3>
             <p className="leading-6 text-center text-white">
-              Strategic Insights, Creative Solutions, Marketing Excellence.
+              We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make
+              every important aspect of the customer experience a little bit better
             </p>
           </div>
         </div>
@@ -59,9 +57,9 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-2.jpg"
-            alt="de-blanc"
+            alt="gkuls"
             fill
-            className="object-cover object-center w-full h-full -z-10 brightness-[0.8]"
+            className="object-cover object-center w-full h-full -z-10 brightness-[0.9]"
           />
         </div>
         <div className="absolute inset-0 flex">
@@ -69,8 +67,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Empowering Success: Your Premier Destination for Specialized Marketing Applications. Unleash Your
-                  Brand&apos;s Potential with Our Tailored Solutions.
+                  We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to
+                  make every important aspect of the customer experience a little bit better
                 </p>
                 <Link href="/our-services" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">OUR SERVICES</button>
@@ -84,9 +82,9 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-3.jpg"
-            alt="de-blanc"
+            alt="gkuls"
             fill
-            className="object-cover object-center w-full h-full -z-10 brightness-[0.8]"
+            className="object-cover object-center w-full h-full -z-10 brightness-[0.95]"
           />
         </div>
         <div className="absolute inset-0 flex">
@@ -94,8 +92,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Decade-Long Journey: Pioneering Marketing Solutions Since 2014. Our Commitment, Your Success – A
-                  Decade of Expertise in Marketing Innovation.
+                  We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to
+                  make every important aspect of the customer experience a little bit better
                 </p>
                 <Link href="/about" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">ABOUT US</button>
