@@ -13,6 +13,14 @@ const products = [
     src: "/image/services/service-3.jpg",
     name: "Tiktok Marketing",
   },
+  {
+    src: "/image/services/service-4.jpg",
+    name: "Branding",
+  },
+  {
+    src: "/image/services/service-5.jpg",
+    name: "Marketing Office",
+  },
 ];
 
 const ProductLayout = () => {

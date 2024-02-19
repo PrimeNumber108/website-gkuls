@@ -5,39 +5,39 @@ import classnames from "classnames";
 
 const users = [
   {
-    name: "Michael Le",
+    name: "Khalid Abdullah",
     comment:
-      "Their marketing service is a game-changer. The innovative strategies they bring to the table have yielded impressive outcomes.",
+      "Effective and flexible. This marketing company is always adaptable to market innovations, maintaining high performance with advertising strategies.",
     image: "/image/users/user-1.jpg",
     rating: 5,
   },
   {
-    name: "Christopher Smith",
+    name: "Jinni Hwang",
     comment:
-      "I'm impressed with their tailored approach, always adapting to our unique needs. Their flexibility and outstanding customer support make them a standout choice.",
-    image: "/image/users/user-2.png",
+      "I run a small company without a strong in-house marketing team, but thanks to this company, all our projects have been successful. Their expertise and dedication have played a crucial role in our achievements.",
+    image: "/image/users/user-2.jpg",
     rating: 5,
   },
   {
-    name: "Emily Davis",
+    name: "Antonio Dela Cruz",
     comment:
-      "The team's professionalism and profound industry understanding have been instrumental in shaping a marketing strategy that resonates. They truly understand our business.",
-    image: "/image/users/user-3.jpeg",
+      "All the projects I have worked with them have been extremely effective. They are experienced and very knowledgeable about the tiktok market.",
+    image: "/image/users/user-3.jpg",
     rating: 5,
   },
   {
-    name: "Williams Ali",
+    name: "Sophia Martinez",
     comment:
-      "What sets them apart is their adept integration of cutting-edge technologies into their marketing tactics. It has streamlined our outreach and engagement processes effectively.",
+      "Good measurement and reporting capabilities. They not only implement strategies but also provide detailed reporting and clear performance evaluations.",
     image: "/image/users/user-4.jpg",
-    rating: 4,
+    rating: 5,
   },
   {
-    name: "Olivia Johnson",
+    name: "Amber Liu",
     comment:
-      "The transparency and clarity in their measurement and reporting are commendable. Their marketing services not only look good on paper but also contribute tangible value to our business growth.",
-    image: "/image/users/user-5.jpeg",
-    rating: 5,
+      "Profound strategic thinking. This company has the ability to assess the market and a clear understanding of competitors, helping us seize opportunities in a timely manner.",
+    image: "/image/users/user-5.jpg",
+    rating: 4,
   },
 ];
 
@@ -45,15 +45,12 @@ export default function Home() {
   return (
     <div>
       <div className="relative w-full h-screen">
-        <video className="brightness-90" autoPlay={true} muted loop>
-          <source src="/video/video-1.mp4" type="video/mp4"></source>
-        </video>
+        <img src="/image/banners/banner-1.jpg" alt="de-blanc" className="w-full h-full brightness-[0.9]" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">thefemm</h3>
+            <h3 className="text-white uppercase text-heading">de-blanc</h3>
             <p className="leading-6 text-center text-white">
-              Marketing is not just about talking about the product, but also about creating an emotional experience for
-              the customer
+              Strategic Insights, Creative Solutions, Marketing Excellence.
             </p>
           </div>
         </div>
@@ -61,8 +58,8 @@ export default function Home() {
       <div className="relative w-full min-h-screen">
         <div className="absolute inset-0">
           <Image
-            src="/image/banners/banner-1.jpg"
-            alt="thefemm"
+            src="/image/banners/banner-2.jpg"
+            alt="de-blanc"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.8]"
           />
@@ -72,7 +69,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Discover the needs hidden behind the needs that others do not recognize.
+                  Empowering Success: Your Premier Destination for Specialized Marketing Applications. Unleash Your
+                  Brand&apos;s Potential with Our Tailored Solutions.
                 </p>
                 <Link href="/our-services" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">OUR SERVICES</button>
@@ -85,8 +83,8 @@ export default function Home() {
       <div className="relative w-full min-h-screen">
         <div className="absolute inset-0">
           <Image
-            src="/image/banners/banner-2.jpg"
-            alt="thefemm"
+            src="/image/banners/banner-3.jpg"
+            alt="de-blanc"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.8]"
           />
@@ -96,7 +94,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Unity is strength... when there is teamwork and collaboration, wonderful things can be achieved.
+                  Decade-Long Journey: Pioneering Marketing Solutions Since 2014. Our Commitment, Your Success – A
+                  Decade of Expertise in Marketing Innovation.
                 </p>
                 <Link href="/about" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">ABOUT US</button>

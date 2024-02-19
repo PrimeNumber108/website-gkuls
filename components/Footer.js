@@ -13,10 +13,11 @@ const Footer = () => {
     <>
       <Modal open={showModalContact} setOpen={setShowModalContact} title="Contact us">
         <p className="text-xl leading-8">
-          Please contact us via email if you need support or advice. Our staff will contact you as soon as possible.
+          Get in touch with us! Your questions, feedback, and inquiries matter. We&apos;re here to assist you. Reach out
+          and let&apos;s connect for a seamless experience:
           <br />
-          <Link className="text-blue-500 underline" href="mailto:hello.thefemm@gmail.com" target="_blank">
-            hello.thefemm@gmail.com
+          <Link className="text-blue-500 underline" href="mailto:deblanc.contact@gmail.com" target="_blank">
+            deblanc.contact@gmail.com
           </Link>
         </p>
       </Modal>
@@ -49,8 +50,8 @@ const Footer = () => {
         <h3 className="mb-1.5 text-lg font-bold">EASY RETURN & EXCHANGE PROCESS</h3>
         <p>
           Firstly, email (So We Can Send You Your Receipt) customer care at{" "}
-          <Link className="text-blue-500 underline" href="mailto:hello.thefemm@gmail.com" target="_blank">
-            hello.thefemm@gmail.com
+          <Link className="text-blue-500 underline" href="mailto:deblanc.contact@gmail.com" target="_blank">
+            deblanc.contact@gmail.com
           </Link>{" "}
           or call our support team. Our team is available to talk to you 9am-5pm, Monday to Friday! Include in your
           initial request how you wish to proceed (return or exchange) and we will walk you through the process of which
@@ -117,7 +118,7 @@ const Footer = () => {
         </div>
         <div className="flex-col flex-1 w-full gap-5 px-10 bg-black sm:px-28 lg:w-1/2 lg:py-0 py-14 flex-center">
           <p className="lg:w-[100%] text-heading text-2xl text-white text-center mb-1">
-            With 5 years of experience, THEFEMM has now approached and cooperated with more than 17,000 customers,
+            With 5 years of experience, de-blanc has now approached and cooperated with more than 17,000 customers,
             bringing many effective marketing results.
           </p>
           <Link href="/about" className="block tracking-[1px] w-fit pb-2">
