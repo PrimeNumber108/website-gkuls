@@ -13,8 +13,7 @@ const Footer = () => {
     <>
       <Modal open={showModalContact} setOpen={setShowModalContact} title="Contact us">
         <p className="text-xl leading-8">
-          The transparency and clarity in their measurement and reporting are commendable. Their marketing services not
-          only look good on paper but also contribute tangible value to our business growth.
+          Please contact us via email if you need support or advice. Our staff will contact you as soon as possible.
           <br />
           <Link className="text-blue-500 underline" href="mailto:hello.gkuls@gmail.com" target="_blank">
             hello.gkuls@gmail.com
@@ -105,7 +104,7 @@ const Footer = () => {
             </span>
             <div className="flex justify-center col-span-3 gap-4 mt-1 lg:justify-start">
               <Link target="_blank" href="https://morri-skin-beauty.myshopify.com">
-                <img src="/image/icon/facebook.jpeg" alt="" width={30} className="rounded" />
+                <img src="/image/icon/global.jpeg" alt="" width={30} className="rounded" />
               </Link>
             </div>
           </div>

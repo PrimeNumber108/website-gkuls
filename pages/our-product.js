@@ -11,7 +11,11 @@ const products = [
   {
     name: "Mushroom Head Air Cushion CC Cream",
     image: "/image/products/product-2.jpg",
-    desc: ["Trezzen Hair Color Improving Bar Soap.", "60g", "Made in USA"],
+    desc: [
+      "Hair blackening soap makes hair shiny and effectively prevents dandruff, hair loss, and itching.",
+      "60g",
+      "Made in USA",
+    ],
   },
   {
     name: "Melasma treatment cream",

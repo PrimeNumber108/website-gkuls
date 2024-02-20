@@ -67,8 +67,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to
-                  make every important aspect of the customer experience a little bit better
+                  Marketing is the art of understanding, communicating, and fulfilling the needs and desires of
+                  consumers.
                 </p>
                 <Link href="/our-services" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">OUR SERVICES</button>
@@ -92,8 +92,7 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to
-                  make every important aspect of the customer experience a little bit better
+                  Quality means doing it right when no one is looking.
                 </p>
                 <Link href="/about" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">ABOUT US</button>
